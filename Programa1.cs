@@ -11,6 +11,7 @@ public class JewelCollector {
       do {
   
           
+          Console.WriteLine Enter the command: ");
           string command = Console.ReadLine();
   
           if (command.Equals("quit")) {
