@@ -10,7 +10,7 @@ public class JewelCollector {
   
       do {
   
-          Console.WriteLine("Enter the command: ");
+          
           string command = Console.ReadLine();
   
           if (command.Equals("quit")) {
@@ -19,13 +19,7 @@ public class JewelCollector {
               
           } else if (command.Equals("a")) {
               
-          } else if (command.Equals("s")) {
-            
-          } else if (command.Equals("d")) {
-          
-          } else if (command.Equals("g")) {
-              
-          }
+      
       } while (running);
       
   }
